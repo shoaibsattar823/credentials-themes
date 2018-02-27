@@ -1,0 +1,40 @@
+// ------------------------------
+// Wharton Online: Utilities
+
+// About: configuration, functions, variables, mixins, and general helpers for rendering.
+
+// #VARIABLES
+// #FUNCTIONS
+// #MIXINS
+// #HELPERS
+
+// ------------------------------
+// #VARIABLES
+// ------------------------------
+$font-path: '~edx-pattern-library/pattern-library/fonts';
+$font-family-serif: Georgia, Times, 'Times New Roman', serif;
+$font-family-sans-serif: 'TradeGothicLTStd', sans-serif;
+
+
+// ------------------------------
+// #FUNCTIONS
+// ------------------------------
+
+
+// ------------------------------
+// #MIXINS
+// ------------------------------
+
+
+// ------------------------------
+// #HELPERS
+// ------------------------------
+// don't link style me, bro!
+%reset-link {
+    border-bottom: none;
+    padding: 0;
+
+    &:hover, &:focus, &:active {
+        border-bottom: 0;
+    }
+}
