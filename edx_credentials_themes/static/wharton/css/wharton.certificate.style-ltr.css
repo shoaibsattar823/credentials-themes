@@ -1,3 +1,11 @@
+
+@font-face {
+  font-family: 'GaramondPremrPro';
+  src: url('../fonts/GaramondPremrPro.eot?#iefix') format('embedded-opentype'),  url('../fonts/GaramondPremrPro.otf')  format('opentype'),
+	     url('../fonts/GaramondPremrPro.woff') format('woff'), url('../fonts/GaramondPremrPro.ttf')  format('truetype'), url('../fonts/GaramondPremrPro.svg#GaramondPremrPro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: Open Sans;
   font-style: normal;
@@ -506,7 +514,7 @@ body {
 
 .accomplishment-rendering {
   text-align: center;
-  margin: 2%;
+  margin: 6%;
   border: 1px solid #cdd7db;
   padding: 5%;
   background-color: #fcfcfc;
@@ -515,7 +523,7 @@ body {
 
 @media (min-width:768px) {
   .accomplishment-rendering {
-    padding: 8% 5%;
+    padding: 4% 5%;
   }
 }
 
@@ -537,7 +545,7 @@ body {
 
 @media (min-width:768px) {
   .wrapper-accomplishment-org .organization-logo {
-    width: 31.91489%;
+    width: 50%;
   }
 }
 
