@@ -338,7 +338,7 @@ body {
 }
 
 .accomplishment-rendering {
-  background: url("../images/BG.png") no-repeat;
+  background: url("https://edxuploads.s3.amazonaws.com/certificate_template_assets/73/BG.png") no-repeat;
   background-position: 0 !important;
   box-shadow: 0 1px 2px 1px hsla(0,2%,65%,.25);
 }
